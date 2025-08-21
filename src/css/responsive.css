@@ -1,0 +1,66 @@
+@media (min-width: 23.4375rem) {
+  .container, footer {
+    max-width: 20.9375rem;
+  }
+  
+  .community-section, 
+  .subscription-section, 
+  .why-us-section {
+    padding: var(--space-7);
+  }
+}
+
+@media (min-width: 48rem) {
+  body {
+    padding: var(--space-8) var(--space-6);
+  }
+  
+  .container {
+    max-width: 39.6875rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: var(--border-radius-lg);
+    margin-block-end: var(--space-8);
+  }
+  
+  footer {
+    max-width: 39.6875rem;
+  }
+  
+  .community-section {
+    grid-column: span 2;
+    padding: var(--space-9);
+  }
+  
+  .subscription-section, 
+  .why-us-section {
+    padding: var(--space-9);
+  }
+}
+
+@media (min-width: 64rem) {
+  body {
+    padding: var(--space-10);
+  }
+  
+  .container, footer {
+    max-width: 43.75rem;
+  }
+}
+
+@media (prefers-contrast: high) {
+  .subscription-section,
+  .why-us-section {
+    border: 0.125rem solid var(--color-white);
+  }
+  
+  .sign-up-btn {
+    border: 0.125rem solid var(--color-white);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sign-up-btn {
+    transition: none;
+  }
+}

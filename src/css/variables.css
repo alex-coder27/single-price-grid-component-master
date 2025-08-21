@@ -1,0 +1,45 @@
+:root {
+  --color-primary: hsl(179, 62%, 43%);
+  --color-primary-light: hsl(179, 47%, 52%);
+  --color-accent: hsl(71, 73%, 54%);
+  --color-accent-hover: hsl(71, 65%, 48%);
+  --color-bg: hsl(204, 43%, 93%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-text-dark: hsl(218, 22%, 67%);
+  --color-link-footer: hsl(228, 45%, 44%);
+  
+  --opacity-60: 0.6;
+  --opacity-75: 0.75;
+  
+  --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.9rem);
+  --text-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
+  --text-md: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.05rem + 0.375vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.35rem + 0.75vw, 1.875rem);
+  
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-9: 2.5rem;
+  --space-10: 3rem;
+  
+  --font-weight-bold: 700;
+  --font-family: 'Karla', sans-serif;
+  
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+  
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.375rem;
+  --border-radius-lg: 0.5rem;
+  
+  --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
