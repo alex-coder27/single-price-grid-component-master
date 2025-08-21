@@ -58,7 +58,7 @@
 }
 
 .period {
-  color: rgba(255, 255, 255, var(--opacity-60));
+  color: var(--color-gray-opacity-60);
   font-size: var(--text-md);
 }
 
@@ -80,6 +80,12 @@
   transition: all 0.3s ease;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .sign-up-btn {
+    transition: none;
+  }
+}
+
 .sign-up-btn:hover,
 .sign-up-btn:focus {
   background-color: var(--color-accent-hover);
@@ -99,7 +105,7 @@
 }
 
 .why-us-section li {
-  color: rgba(255, 255, 255, var(--opacity-75));
+  color: var(--color-gray-opacity-75);
   line-height: var(--line-height-normal);
   margin-block-end: var(--space-1);
   font-size: var(--text-sm);

@@ -47,20 +47,3 @@
     max-width: 43.75rem;
   }
 }
-
-@media (prefers-contrast: high) {
-  .subscription-section,
-  .why-us-section {
-    border: 0.125rem solid var(--color-white);
-  }
-  
-  .sign-up-btn {
-    border: 0.125rem solid var(--color-white);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .sign-up-btn {
-    transition: none;
-  }
-}
